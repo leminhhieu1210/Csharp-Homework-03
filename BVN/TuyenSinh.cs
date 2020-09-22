@@ -10,7 +10,7 @@ namespace BVN1_0
 
         public TuyenSinh():base()
         {
-            khuVuc = 0;
+            khuVuc = 1;
         }
 
         public void input()

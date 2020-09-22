@@ -20,6 +20,7 @@ namespace BVN
             }
 
             int diemChuan;
+            bool check = false;
             Console.Write("Nhap diem chuan: ");
             diemChuan = int.Parse(Console.ReadLine());
 
@@ -29,8 +30,10 @@ namespace BVN
                 if (ts[i].tongDiem() >= diemChuan)
                 {
                     ts[i].output();
+                    check = true;
                 }
             }
+            if (check == false) Console.WriteLine("Khong co thi sinh trung tuyen.");
         }
     }
 }
