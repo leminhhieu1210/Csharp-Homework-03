@@ -1,0 +1,13 @@
+E:\IT\C#\LapTrinhTrucQuan\TH01\CanHoHCN\CanHoHCN\obj\Debug\netcoreapp3.1\CanHoHCN.csprojAssemblyReference.cache
+E:\IT\C#\LapTrinhTrucQuan\TH01\CanHoHCN\CanHoHCN\obj\Debug\netcoreapp3.1\CanHoHCN.csproj.CoreCompileInputs.cache
+E:\IT\C#\LapTrinhTrucQuan\TH01\CanHoHCN\CanHoHCN\obj\Debug\netcoreapp3.1\CanHoHCN.AssemblyInfoInputs.cache
+E:\IT\C#\LapTrinhTrucQuan\TH01\CanHoHCN\CanHoHCN\obj\Debug\netcoreapp3.1\CanHoHCN.AssemblyInfo.cs
+E:\IT\C#\LapTrinhTrucQuan\TH01\CanHoHCN\CanHoHCN\bin\Debug\netcoreapp3.1\CanHoHCN.exe
+E:\IT\C#\LapTrinhTrucQuan\TH01\CanHoHCN\CanHoHCN\bin\Debug\netcoreapp3.1\CanHoHCN.deps.json
+E:\IT\C#\LapTrinhTrucQuan\TH01\CanHoHCN\CanHoHCN\bin\Debug\netcoreapp3.1\CanHoHCN.runtimeconfig.json
+E:\IT\C#\LapTrinhTrucQuan\TH01\CanHoHCN\CanHoHCN\bin\Debug\netcoreapp3.1\CanHoHCN.runtimeconfig.dev.json
+E:\IT\C#\LapTrinhTrucQuan\TH01\CanHoHCN\CanHoHCN\bin\Debug\netcoreapp3.1\CanHoHCN.dll
+E:\IT\C#\LapTrinhTrucQuan\TH01\CanHoHCN\CanHoHCN\bin\Debug\netcoreapp3.1\CanHoHCN.pdb
+E:\IT\C#\LapTrinhTrucQuan\TH01\CanHoHCN\CanHoHCN\obj\Debug\netcoreapp3.1\CanHoHCN.dll
+E:\IT\C#\LapTrinhTrucQuan\TH01\CanHoHCN\CanHoHCN\obj\Debug\netcoreapp3.1\CanHoHCN.pdb
+E:\IT\C#\LapTrinhTrucQuan\TH01\CanHoHCN\CanHoHCN\obj\Debug\netcoreapp3.1\CanHoHCN.genruntimeconfig.cache
