@@ -40,6 +40,9 @@
             this.btnSolve = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.txtErA = new System.Windows.Forms.Label();
+            this.txtErB = new System.Windows.Forms.Label();
+            this.txtErC = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -68,14 +71,16 @@
             this.txtA.Location = new System.Drawing.Point(166, 85);
             this.txtA.Name = "txtA";
             this.txtA.Size = new System.Drawing.Size(303, 26);
-            this.txtA.TabIndex = 2;
+            this.txtA.TabIndex = 0;
+            this.txtA.TextChanged += new System.EventHandler(this.txtA_TextChanged);
             // 
             // txtB
             // 
             this.txtB.Location = new System.Drawing.Point(166, 145);
             this.txtB.Name = "txtB";
             this.txtB.Size = new System.Drawing.Size(303, 26);
-            this.txtB.TabIndex = 4;
+            this.txtB.TabIndex = 1;
+            this.txtB.TextChanged += new System.EventHandler(this.txtB_TextChanged);
             // 
             // label3
             // 
@@ -92,7 +97,8 @@
             this.txtC.Location = new System.Drawing.Point(166, 202);
             this.txtC.Name = "txtC";
             this.txtC.Size = new System.Drawing.Size(303, 26);
-            this.txtC.TabIndex = 6;
+            this.txtC.TabIndex = 2;
+            this.txtC.TextChanged += new System.EventHandler(this.txtC_TextChanged);
             // 
             // label4
             // 
@@ -130,7 +136,7 @@
             this.btnSolve.Location = new System.Drawing.Point(55, 373);
             this.btnSolve.Name = "btnSolve";
             this.btnSolve.Size = new System.Drawing.Size(110, 50);
-            this.btnSolve.TabIndex = 9;
+            this.btnSolve.TabIndex = 3;
             this.btnSolve.Text = "&Giải PT";
             this.btnSolve.UseVisualStyleBackColor = true;
             this.btnSolve.Click += new System.EventHandler(this.btnSolve_Click);
@@ -141,7 +147,7 @@
             this.btnReset.Location = new System.Drawing.Point(255, 373);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(110, 50);
-            this.btnReset.TabIndex = 10;
+            this.btnReset.TabIndex = 4;
             this.btnReset.Text = "&Làm lại";
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
@@ -152,16 +158,43 @@
             this.btnExit.Location = new System.Drawing.Point(451, 373);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(110, 50);
-            this.btnExit.TabIndex = 11;
+            this.btnExit.TabIndex = 5;
             this.btnExit.Text = "&Thoát";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // txtErA
+            // 
+            this.txtErA.AutoSize = true;
+            this.txtErA.Location = new System.Drawing.Point(487, 90);
+            this.txtErA.Name = "txtErA";
+            this.txtErA.Size = new System.Drawing.Size(0, 20);
+            this.txtErA.TabIndex = 9;
+            // 
+            // txtErB
+            // 
+            this.txtErB.AutoSize = true;
+            this.txtErB.Location = new System.Drawing.Point(487, 151);
+            this.txtErB.Name = "txtErB";
+            this.txtErB.Size = new System.Drawing.Size(0, 20);
+            this.txtErB.TabIndex = 10;
+            // 
+            // txtErC
+            // 
+            this.txtErC.AutoSize = true;
+            this.txtErC.Location = new System.Drawing.Point(487, 207);
+            this.txtErC.Name = "txtErC";
+            this.txtErC.Size = new System.Drawing.Size(0, 20);
+            this.txtErC.TabIndex = 11;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(652, 450);
+            this.Controls.Add(this.txtErC);
+            this.Controls.Add(this.txtErB);
+            this.Controls.Add(this.txtErA);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnSolve);
@@ -195,6 +228,9 @@
         private System.Windows.Forms.Button btnSolve;
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Label txtErA;
+        private System.Windows.Forms.Label txtErB;
+        private System.Windows.Forms.Label txtErC;
     }
 }
 

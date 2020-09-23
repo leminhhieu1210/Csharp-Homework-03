@@ -49,7 +49,7 @@ namespace bai3
                         else
                         {
                             x = -c / b;
-                            txtKQ.Text = "Phương trình có một nghiệm:" + endl + "x = " + x.ToString();
+                            txtKQ.Text = "Phương trình có một nghiệm:\r\n" + "x = " + x.ToString();
                         }
                     }
                     else
@@ -60,7 +60,7 @@ namespace bai3
                         else if (delta == 0)
                         {
                             x = -b / (2 * a);
-                            txtKQ.Text = "Phương trình có nghiệm kép:" + endl + "x = " + x.ToString();
+                            txtKQ.Text = "Phương trình có nghiệm kép:\r\n" + "x = " + x.ToString();
                         }
                         else
                         {
@@ -90,6 +90,51 @@ namespace bai3
             DialogResult h = MessageBox.Show("Bạn có muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Error);
             if (h == DialogResult.Yes)
                 this.Close();
+        }
+
+        private void txtA_TextChanged(object sender, EventArgs e)
+        {
+            double x;
+            if (double.TryParse(txtA.Text, out x) == false)
+            {
+                txtErA.Text = "WA";
+                txtErA.ForeColor = Color.Red;
+            }
+            else
+            {
+                txtErA.Text = "AC";
+                txtErA.ForeColor = Color.Green;
+            }
+        }
+
+        private void txtB_TextChanged(object sender, EventArgs e)
+        {
+            double x;
+            if (double.TryParse(txtB.Text, out x) == false)
+            {
+                txtErB.Text = "WA";
+                txtErB.ForeColor = Color.Red;
+            }
+            else
+            {
+                txtErB.Text = "AC";
+                txtErB.ForeColor = Color.Green;
+            }
+        }
+
+        private void txtC_TextChanged(object sender, EventArgs e)
+        {
+            double x;
+            if (double.TryParse(txtC.Text, out x) == false)
+            {
+                txtErC.Text = "WA";
+                txtErC.ForeColor = Color.Red;
+            }
+            else
+            {
+                txtErC.Text = "AC";
+                txtErC.ForeColor = Color.Green;
+            }
         }
     }
 }
